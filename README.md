@@ -19,5 +19,12 @@ Now, once you've read and understood the structure of the JSON file, now we will
 
 `File your replies here`
 
+Once the dataframe is read into the correct format, let us start extracting information out of this tabular structured dataframe. The first task is to create an attribute called `co_founder_names` which essentially refers to the creation of all the co-founders corresponding to an organsation. Remember, that since you've read the file and processed the dataframe in such a way that each row corresponds to one organisation uniquely, this attribute `co_founder_names` should be a list of all the co-founders of that particular organisation.
 
+for e.g. 
+
+----------------------
+|index| co_founder_name|
+
+|1.   | [rodolphe-ardant, jordane-giuly]|
 
