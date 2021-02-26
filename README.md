@@ -28,3 +28,14 @@ for e.g.
 
 |1.   | [rodolphe-ardant, jordane-giuly]|
 
+
+
+
+## Statistical Modelling
+
+Once we have the dataset prepared about the entrepreneurs, the final task is about the creation of a statistical model that has the capability of exploiting the dataset. Now, in order to create a statistical model we need the label for training the model. Further, before we create the label, we first have to understand the classes of the label. In this case, the two classes for the labels are successful and struggling which is strictly as per the investment thesis of the organisation. Now, in order to assign the two classes to our data points, the criterion is-
+
+* Any entrepreneur having raised Series A or more is deemed to be successful otherwise he is considered struggling
+* This cretierion is strictly based on the investment thesis of the organization and in no way it is a broad judgement of one's capability
+
+
